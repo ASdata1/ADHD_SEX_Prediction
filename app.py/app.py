@@ -32,7 +32,7 @@ st.title("ADHD Prediction App")
 
 with st.expander("ℹ️ Data Dictionary"):
     try:
-        data_dict_df = pd.read_excel("Data Dictionary/Data Dictionary (1) (1).xlsx")
+        data_dict_df = pd.read_excel("C:\\Users\\04ama\\OneDrive\\chemistry\\ADHD_SEX_Prediction\\Data Dictionary\\Data Dictionary (1).xlsx")
         st.dataframe(data_dict_df)
     except:
         st.write("Data dictionary not found")
