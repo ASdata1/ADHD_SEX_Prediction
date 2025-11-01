@@ -1,0 +1,28 @@
+{
+  "model_info": {
+    "name": "Logistic Regression",
+    "optimal_threshold": 0.2899999999999999
+  },
+  "performance": {
+    "test_f1_macro": 0.7191593352883675,
+    "test_roc_auc": 0.7883632923368022,
+    "test_precision_adhd": 0.8113207547169812,
+    "test_recall_adhd": 0.8543046357615894
+  },
+  "model_comparison": {
+    "Logistic Regression": {
+      "validation_f1_macro": 0.7012956748695003,
+      "validation_roc_auc": 0.7558183538315989
+    },
+    "LightGBM": {
+      "validation_f1_macro": 0.6691048329692448,
+      "validation_roc_auc": 0.7342478713339641
+    }
+  },
+  "stability": {
+    "mean_f1_macro": 0.714131793556118,
+    "std_f1_macro": 0.030224267457722873,
+    "mean_auc": 0.8125449385052033,
+    "std_auc": 0.02608702871702759
+  }
+}
