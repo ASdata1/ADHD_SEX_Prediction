@@ -1,5 +1,0 @@
-{
-  "threshold": 0.2899999999999999,
-  "model_name": "Logistic Regression",
-  "optimization_metric": "f1_macro"
-}
